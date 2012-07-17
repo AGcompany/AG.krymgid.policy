@@ -21,13 +21,15 @@ setup(name='AG.krymgid.policy',
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
-        "Programming Language :: Python",
+        'Framework :: Plone',
+        'Intended Audience :: Developers',
         ],
       keywords='',
       author='Bogdan Girman',
       author_email='bogdan.girman@gmail.com',
       url='https://github.com/AGcompany/AG.krymgid.policy',
       license='gpl',
+      packages=find_packages(exclude=['ez_setup']),
       packages=find_packages('src'),
       package_dir = {'': 'src'},
       namespace_packages=['AG', 'AG.krymgid'],
