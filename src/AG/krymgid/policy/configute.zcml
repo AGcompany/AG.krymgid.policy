@@ -16,4 +16,12 @@
         i18n:attributes="title; description"
         />
 
+    <!-- Oculta produtos no quickinstaller -->
+    <utility factory=".quickinstaller.HiddenProfiles"
+             name="AG.krymgid.policy" />
+    <utility factory=".quickinstaller.HiddenProducts"
+             name="AG.krymgid.policy" />
+    
+    <include package=".upgrades" />
+
 </configure>
