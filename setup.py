@@ -34,6 +34,7 @@ setup(name='AG.krymgid.policy',
       include_package_data=True,
       zip_safe=False,
       install_requires=[
+          'plonetheme.discovery',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
