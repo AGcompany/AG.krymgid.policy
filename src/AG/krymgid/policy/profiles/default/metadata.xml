@@ -2,6 +2,6 @@
 <metadata>
     <version>0001</version>
     <dependencies>
-        <dependency>profile-AG.krymgid.theme:default</dependency>
+        <dependency>profile-plonetheme.bootstrap:default</dependency>
     </dependencies>
 </metadata>

@@ -31,11 +31,10 @@ setup(name='AG.krymgid.policy',
       license='gpl',
       packages=find_packages('src',exclude=['ez_setup']),
       package_dir = {'': 'src'},
-      namespace_packages=['AG', 'AG.krymgid'],
+      namespace_packages = ['AG', 'AG.krymgid'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
-          'AG.krymgid.theme',
           'setuptools',
           # -*- Extra requirements: -*-
       ],
